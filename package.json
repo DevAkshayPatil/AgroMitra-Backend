@@ -1,0 +1,24 @@
+{
+  "name": "agromitra-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAkshayPatil/AgroMitra-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevAkshayPatil/AgroMitra-Backend/issues"
+  },
+  "homepage": "https://github.com/DevAkshayPatil/AgroMitra-Backend#readme",
+  "description": ""
+}
