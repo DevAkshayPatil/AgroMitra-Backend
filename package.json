@@ -2,12 +2,13 @@
   "name": "agromitra-backend",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
     "url": "https://github.com/DevAkshayPatil/AgroMitra-Backend/issues"
   },
   "homepage": "https://github.com/DevAkshayPatil/AgroMitra-Backend#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
